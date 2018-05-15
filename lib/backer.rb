@@ -7,7 +7,7 @@ attr_accessor :name
 
   def back_project(project)
     project = Project.new(name)
-    @backed_projects = [] << project
+    @backed_projects << project
 
   end
 end
